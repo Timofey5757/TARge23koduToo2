@@ -8,62 +8,146 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
 <style>
-    .carousel-slide{
-        width: 800px;
-    }
+
 </style>
 
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/flash.png" alt="" width="50" height="30">Elekter OÜ</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/flash.png" alt="" width="50" height="30">Elekter OÜ</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item d-flex">
-                        <a type="button" class="btn btn-primary" href="#">Sign in</a>
-                    </li>
-                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.htmls">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Contacts</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item d-flex">
+                    <a type="button" class="btn btn-primary" href="logIn.html">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/istockphoto.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="img/istockphoto-1pg.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="img/technician-working.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Wiring-Services.jpg" class="d-block w-100" alt="">
             </div>
         </div>
-    </nav>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 
-    <div class="container">
-        <div id="myCarousel" class="carousel-slide" data-bs-ride="carousel" data-interval="1000">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/istockphoto.jpg" alt=""
-                    class="d-block w-100"/>
-                </div>
-            
-                <div class="carousel-item">
-                    <img src="img/istockphoto-1pg.jpg" alt=""
-                    class="d-block w-100"/>
-                </div>
 
-                <div class="carousel-item">
-                    <img src="img/technician-working.jpg" alt=""
-                    class="d-block w-100"/>
-                </div>
+<div class="container marketing">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+            <h1 class="display-3 fw-bold">Electricity for your home</h1>
+            <br>
+            <h3 class="fw-normal text-muted mb-3">Everything you need for your home in one place</h3>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
 
-                <div class="carousel-item">
-                    <img src="img/Wiring-Services.jpg" alt=""
-                    class="d-block w-100"/>
-                </div>
-            </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Professional and qualified workers.</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ducimus, 
+                ex ea quibusdam cupiditate beatae veniam voluptatibus soluta similique repellat voluptas placeat impedit ratione, 
+                perspiciatis numquam praesentium quia rerum velit.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="img/istockphoto.jpg" alt="" width="500">
         </div>
     </div>
 
+    <hr class="featurette-divider">
 
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Green energy.</h2>
+            <p class="lead">Solar panels are a good and easy way to reduce your environmental footprint in the product itself by 100%
+                clean energy and save on electricity costs.
+                You save on electricity, network fees and state taxes, and you can sell the remaining electricity back to the network.
+                An investment in a home solar power plant has a permanent and fixed return and increases the market value of the building.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="img/istockphoto-1pg.jpg" alt="" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one.</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ducimus, 
+                ex ea quibusdam cupiditate beatae veniam voluptatibus soluta similique repellat voluptas placeat impedit ratione, 
+                perspiciatis numquam praesentium quia rerum velit.</p>
+        </div>
+        <div class="col-md-5">
+            <img src="img/technician-working.jpg" alt="" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one.</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ducimus, 
+                ex ea quibusdam cupiditate beatae veniam voluptatibus soluta similique repellat voluptas placeat impedit ratione, 
+                perspiciatis numquam praesentium quia rerum velit.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="img/Wiring-Services.jpg" alt="" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+</div>
+
+    
 </body>
 </html>
